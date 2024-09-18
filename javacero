@@ -1,0 +1,37 @@
+package com.lenin.java_cero;
+
+import java.util.Scanner;
+
+public class Java_cero {
+
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+        int numero;
+        double num;
+        String cadena;
+        char letra;
+        
+        System.out.println("digite un numero");
+        numero = entrada.nextInt();
+        
+        System.out.println("el numero es: "+ numero);
+        //----------------------------------------------
+        // en este paso si no da con punto intentar con coma 2,5
+        System.out.println("digite otro numero");
+        num = entrada.nextDouble();
+        System.out.println("el numero es: "+ num);
+        //--------------------------------
+        System.out.println("digite una cadena");
+        /* el next solo, lee hasta encontrar espacio
+        en cambio el nextLine si lo lee
+        */ 
+        cadena = entrada.nextLine();
+        System.out.println("la cadena es: "+cadena );
+        //-------------------------------
+        System.out.println("digite una letra");
+        letra = entrada.next().charAt(0);
+        System.out.println("la letra es: "+letra);
+        
+        
+    }
+}
