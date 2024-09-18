@@ -1,0 +1,79 @@
+JAVA es un lenguaje de desarrollo de proposito general,
+ y como tal es valido para realizar
+todo tipo de aplicaciones profesionales......
+
+¿QUE LO HACE DISTINTO DE LOS DEMAS LENGUAJES?
+Los programas creados por java son independientes de la arquitectura
+SON PORTABLES(MAC;LAPTOP:::)...
+
+Permite escribir Applets...( son pequeños progrmas que se insertan dentro de 
+una pagina html que pueden ser esccritos con java)
+
+-Se puede escribir para intrarredes.
+-APlicaciones cliente/servidor.
+-Aplicaciones distribuidas en redes locales y en internet.
+-Es facil de aprender y esta bien estructurado.
+///////////////////////////////////////////////////////////////////
+CARACTERISTICAS DEL LENGUAJE
+-Es intrinsecamente orientado a objetos
+-Funciona perfectamente en red
+-Tiene gran funcionalidad gracias a sus librerias(clases)
+-No tiene punteros manejables por el programador, aunque los maneja interna
+ y transparentemente.
+-Genera aplicaciones con pocos errores posibles.
+-Incorpora Multi-Threading(incorpora mutihilos)
+para que son los hios, son para cuando tengas varias operaciones concurrente se 
+puedan ejecutar a la vez.
+/////////////////////////////////////////////////////////
+
+ATAJO MUY IMPORTANTE EN JAVA
+presionar sout+tab-----System.out.println("");
+fn+f6----- sirve para compilar codigo
+
+//////////////////////////////////////////////////////
+LAS VARIABLES Y TIPOS DE VARIABLES
+Una variable es un espacio de memoria donde tu almacenas un valor
+existen los tipos entero punto decimal caracter y booleano estos pueden cambiar 
+a lo largo del programa he ahi su nombre (variable)
+
+TIPOS DE DATOS PRIMITIVOS
+variables enteros(byte,8bits;short,16bits;int,32bits;long,64bits)
+variables decimales(float,32bits;double,64bits)
+cuando declaro la variable de tipo float se debe poner "f luego del numero"
+-------float decimal = 12.34f ;
+cuando se declara la variable de tipo double no es necesario poner 
+ninguna letra extra
+variable de tipo caracter seria char
+-------char caracter = 'a';
+variable de tipo condicional es boolean(solo tiene dos valores false o true)
+-------boolean decision = true;
+
+TIPOS DE DATOS NO PRIMITIVOS
+Integer numero = null;
+integer numero = 10;
+ 
+estos tipos de datos permite almacenar datos de tipo null cosa que no 
+puedes poner en tipos de datos primitivos
+-los datos de tipo no primitivo tienen metodos.
+ejem:  numero. ese punto abre metodos
+
+String palabra = "Hola que tal";
+En los caracteres se usan comillas simples en cambio en las cadenas se usan
+comillas dobles
+////////////////////////////////////////////////////////////////////
+CONSTANTES
+Es un espacio en memoria que se usa que no cambiara durante todo el programa
+int numero = 10;
+numero = 15;
+
+system.outprintln(numero);
+en este caso como varia ya no saldria 10 sino saldria 15
+   
+las constantes se declaran con una palabra inicial llamada (final)
+
+final int numero = 10 //Constante
+
+numero = 15;
+
+System.out.println(numero);
+ en este caso saldra error
